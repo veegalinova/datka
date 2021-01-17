@@ -1,18 +1,22 @@
 # Datka
 
-------------
-Misc tools for image data visualization and analysis.
-##Installation
 
---------
+Misc tools for image data visualization and analysis.
+
+
+## Installation
+
 
 ```bash
-pip install https://github.com/veegalinova/datka
+pip install git+https://github.com/veegalinova/datka.git
 ```
+
+
 ## Example
 
-----------
+
 ### Jupyter Widgets
+
 #### Visualizing CIFAR-10
 
 ```python
@@ -43,4 +47,5 @@ from datka.jupyter.widgets import DatasetWidget
 
 DatasetWidget(items=dataset, display_fn=visualize_my_dataset)
 ```
+
 ![Alt Text](docs/dataset_widget.gif)
